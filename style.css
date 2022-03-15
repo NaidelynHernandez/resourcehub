@@ -1,0 +1,321 @@
+body{
+
+
+  margin: 0px;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+#gallery {
+   line-height:0;
+   -webkit-column-count:5; /* split it into 5 columns */
+   -webkit-column-gap:5px; /* give it a 5px gap between columns */
+   -moz-column-count:5;
+   -moz-column-gap:5px;
+   column-count:5;
+   column-gap:5px;
+
+
+
+}
+
+ #title1{
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+
+
+
+    overflow: hidden;
+    white-space: nowrap;
+
+  line-height: 1.1;
+  font-size: 35px;
+  z-index: 999;
+  color: black;
+  filter: sepia(100);
+
+ text-shadow: 5px 2px 6px #000,
+
+                   4px -1px 2px #000;
+  text-align: center;
+  background-color: YELLOW;
+
+  font-family: 'Francois One', Helvetica, Arial, sans-serif;
+
+
+
+overflow: hidden; /* Ensures the content is not revealed until the animation */
+ border-right: .45em solid orange; /* The typwriter cursor */
+ white-space: nowrap; /* Keeps the content on a single line */
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation:
+   typing 4.5s steps(40, end),
+   blink-caret .95s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 350% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+#gallery.title h1{
+
+ z-index: 999;
+ display: flex;
+ justify-content: center;// items align at the center of container
+
+}
+
+#gallery img {
+
+ filter: sepia(100);
+
+   width: 100% !important;
+   height: auto !important;
+   margin-bottom:5px; /* to match column gap */
+
+}
+
+
+
+.options {
+
+
+
+  display:flex;
+  justify-content: space-between;
+  text-align: center;
+
+  padding; 0px 0%;
+
+
+}
+
+
+li a:hover {
+  background-color: rgb(236, 228, 219);
+}
+
+li {
+  float: right;
+  list-style-type: none;
+
+}
+
+li a {
+  /*display: inline-block; */
+  color: white;
+  text-align: center;
+  padding: 0px 20px;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  font: 12pt calibri;
+  text-transform: uppercase;
+  color: black;
+}
+
+
+
+
+
+
+.title a: hover{
+
+ text-decoration: none;
+
+}
+
+.title a {
+text-decoration: none;
+      color:
+
+}
+
+div #title1 a:hover{
+
+  font-size: 70px;
+  text-decoration: none;
+    transition: transform .2s; /* Animation */
+}
+
+.header {
+  padding: 70px;
+  text-align: center;
+  background: yellow;
+  filter: sepia(100);
+  color: blue;
+  font-size: 30px;
+
+  background-image: url(https://news.emory.edu/features/2021/01/arts-and-social-justice/assets/RQYtJTMIPh/asjf-social-1024x512.jpeg);
+  object-fit: cover;
+
+
+}
+
+h1  {
+
+
+  width: 100%;
+  color: black;
+  background-color: white;
+}
+
+
+
+
+
+.sidemenu {
+
+
+
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  background-color: white;
+  width: 30%;
+  border: black dotted 2px;
+  filter: sepia(100);
+  margin-left: 100px;
+  font-size: 25px;
+  font-family: 'Francois One', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+    margin-top: 50px;
+}
+
+
+
+
+.maincontainer {
+  border: black dotted 2px;
+  font-size: 25px;
+
+ margin-right:100px;
+  margin-top: 50px;
+
+  filter: sepia(100);
+  background: white;
+
+  display: flex;
+
+  flex-direction: column;
+  align-items:  center;
+
+  width: 70%;
+
+
+
+  font-family: 'Francois One', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+
+
+
+}
+
+
+
+
+
+.maincontainer p{
+  font-size: 12px;
+
+
+}
+
+
+
+.info{
+
+  background-color: #aaa;
+
+  padding: 20px;
+  length: 80%;
+  width:40%;
+}
+
+
+
+.one{
+  width: 230px;
+  padding: 10px;
+
+
+}
+
+
+.maincontainer  p{
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+a{
+
+  text-decoration: none;
+
+}
+
+.info a:hover {
+font-size: 35px;
+
+}
+
+
+.about3{
+
+  background-color: #aaa;
+  color: white;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  font-size: 20px;
+
+
+}
+
+.text{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 30%;
+background-color: black;
+margin-top: 30px;
+margin-right: 100px;
+
+
+}
+
+.about{
+
+  flex-direction: column;
+  background-color: rgb(198, 172, 143);
+  justify-content: center;
+  margin-left: 120px;
+
+
+   font-size: 25px;
+   width: 70%;
+   length: 100%;
+   padding: 20px;
+   color: black;
+   display:flex;
+   margin-top: 30px;
+}
+
+ .box {
+  display: flex;
+  flex-direction: row;
+  
+}
